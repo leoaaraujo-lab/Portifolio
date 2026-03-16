@@ -1,68 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leonardo Araujo | Página Pessoal</title>
-  <meta name="description" content="Página pessoal de Leonardo Araujo com perfil, projetos e contato." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<title>Leonardo Araujo | Cloud & Infra</title>
+
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#0a2540;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+section{
+max-width:900px;
+margin:auto;
+padding:40px;
+background:white;
+margin-top:20px;
+}
+
+h2{
+color:#0a2540;
+}
+
+.card{
+background:#f2f2f2;
+padding:20px;
+margin-top:15px;
+border-radius:8px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:20px;
+color:#777;
+}
+</style>
+
 </head>
+
 <body>
-  <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
-  <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
 
-  <header class="container header">
-    <p class="eyebrow">PORTFÓLIO PESSOAL</p>
-    <h1>Leonardo Araujo</h1>
-    <p class="subtitle">Construo soluções web com foco em simplicidade, desempenho e impacto real.</p>
-    <a class="btn" href="#contato">Falar comigo</a>
-  </header>
+<header>
+<h1>Leonardo Araujo</h1>
+<p>Cloud • Infraestrutura • Automação</p>
+</header>
 
-  <main class="container">
-    <section class="card" id="sobre">
-      <h2>Sobre mim</h2>
-      <p>
-        Sou desenvolvedor focado em criar ferramentas úteis para times de operação e produto.
-        Gosto de transformar processos manuais em fluxos claros, rápidos e confiáveis.
-      </p>
-    </section>
+<section>
 
-    <section class="card" id="projetos">
-      <h2>Projetos</h2>
-      <div class="project-grid">
-        <article>
-          <h3>Mini Zabbix</h3>
-          <p>Painel leve para monitoramento de serviços internos e visibilidade operacional.</p>
-        </article>
-        <article>
-          <h3>Inventário Web</h3>
-          <p>Cadastro e consulta de ativos em uma interface web simples para equipes técnicas.</p>
-        </article>
-        <article>
-          <h3>Dashboard Digital</h3>
-          <p>Visualização consolidada de indicadores com foco em leitura rápida de status.</p>
-        </article>
-      </div>
-    </section>
+<h2>Sobre mim</h2>
 
-    <section class="card" id="contato">
-      <h2>Contato</h2>
-      <p>Me encontre pelos canais abaixo:</p>
-      <ul>
-        <li>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
-        <li>GitHub: <a href="https://github.com/seuusuario" target="_blank" rel="noreferrer">github.com/seuusuario</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noreferrer">linkedin.com/in/seuusuario</a></li>
-      </ul>
-    </section>
-  </main>
+<p>
+Profissional de TI com experiência em infraestrutura,
+cloud computing e identidade digital.
+Atuação em ambientes corporativos com automação,
+monitoramento e plataformas web.
+</p>
 
-  <footer class="container footer">
-    <p>© <span id="year"></span> Leonardo Araujo</p>
-  </footer>
+<h2>Projetos</h2>
 
-  <script src="script.js"></script>
+<div class="card">
+<b>Automação de Health Check</b><br>
+Scripts para monitoramento de plataformas com alertas via Telegram.
+</div>
+
+<div class="card">
+<b>Infraestrutura GCP</b><br>
+Implementação de Load Balancer, CDN e arquitetura escalável.
+</div>
+
+<div class="card">
+<b>Identity & Access</b><br>
+Implementação de SAML, OAuth e plataformas de autenticação.
+</div>
+
+<h2>Tecnologias</h2>
+
+<p>
+Linux • Google Cloud • Apache • JBoss • Elastic Stack •
+Shell Script • Python • Redes
+</p>
+
+<h2>Contato</h2>
+
+<p>
+Email: seuemail@email.com<br>
+LinkedIn: linkedin.com/in/seuusuario
+</p>
+
+</section>
+
+<footer>
+© 2026 Leonardo Araujo
+</footer>
+
 </body>
 </html>
