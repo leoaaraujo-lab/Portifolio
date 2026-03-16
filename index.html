@@ -1,106 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>Leonardo Araujo | Cloud & Infra</title>
-
-<style>
-body{
-font-family: Arial;
-margin:0;
-background:#f5f5f5;
-}
-
-header{
-background:#0a2540;
-color:white;
-padding:40px;
-text-align:center;
-}
-
-section{
-max-width:900px;
-margin:auto;
-padding:40px;
-background:white;
-margin-top:20px;
-}
-
-h2{
-color:#0a2540;
-}
-
-.card{
-background:#f2f2f2;
-padding:20px;
-margin-top:15px;
-border-radius:8px;
-}
-
-footer{
-text-align:center;
-padding:20px;
-margin-top:20px;
-color:#777;
-}
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Araujo | Currículo Profissional</title>
+  <meta name="description" content="Currículo profissional de Leonardo Araujo com resumo executivo, experiência, formação, competências técnicas e contato." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
 
-<header>
-<h1>Leonardo Araujo</h1>
-<p>Cloud • Infraestrutura • Automação</p>
-</header>
+  <header class="container header">
+    <p class="eyebrow">CURRÍCULO PROFISSIONAL</p>
+    <h1>Leonardo Araujo</h1>
+    <p class="keywords">IAM | SSO | SAML | OAuth | OIDC | Segurança da Informação</p>
+    <p class="subtitle">Especialista em IAM e segurança de acesso para ambientes corporativos críticos.</p>
+    <a class="btn" href="#contato">Entrar em contato</a>
+  </header>
 
-<section>
+  <main class="container">
+    <section class="card" id="resumo">
+      <h2>Resumo Profissional</h2>
+      <p>
+        Especialista com sólida experiência em IAM, autenticação corporativa e segurança de acesso em ambientes críticos.
+        Atuação hands-on na implementação e sustentação de SSO, SAML, OAuth e OIDC, com foco em disponibilidade, conformidade e redução de riscos.
+        Histórico de liderança técnica e integração entre times de infraestrutura, desenvolvimento e segurança.
+      </p>
+    </section>
 
-<h2>Sobre mim</h2>
+    <section class="card" id="objetivo">
+      <h2>Objetivo</h2>
+      <p>Atuar em vagas de Especialista IAM, com foco em identidade, autenticação corporativa, governança de acesso e segurança digital.</p>
+      <p>Contribuir com desenho de arquitetura, implantação de controles de acesso e evolução contínua da postura de segurança.</p>
+    </section>
 
-<p>
-Profissional de TI com experiência em infraestrutura,
-cloud computing e identidade digital.
-Atuação em ambientes corporativos com automação,
-monitoramento e plataformas web.
-</p>
+    <section class="card" id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <div class="experience-item">
+        <h3>Bacharelado em Análise de Sistemas</h3>
+        <p class="meta">Universidade Estácio de Sá | Concluído em 2014</p>
+      </div>
+    </section>
 
-<h2>Projetos</h2>
+    <section class="card" id="experiencia">
+      <h2>Experiência Profissional</h2>
+      <div class="experience-item">
+        <h3>Oi S.A. - Brasil</h3>
+        <p class="meta">Líder do time INFRADIGITAL (Web e Operação de Identidade Digital) | 2018 - Atual</p>
+        <ul>
+          <li>Administração de JBoss, Apache e Tomcat, com foco em desempenho, tuning e alta disponibilidade.</li>
+          <li>Troubleshooting avançado em aplicações web, autenticação, conectividade, SSL e integrações.</li>
+          <li>Gestão de Identidade Digital com Access Manager (OpenText), eDirectory, SAML, OAuth, SSO e políticas de autenticação.</li>
+          <li>Implementação e administração da plataforma Apigee (GCP) para gestão e exposição de APIs corporativas.</li>
+          <li>Migração de portais Oi para GCP, com foco em performance, escalabilidade e continuidade operacional, utilizando as melhores práticas e reduzindo custos.</li>
+          <li>Administração do portal Oi em AWS, com CloudFront, Lambda Functions e ACM.</li>
+          <li>Criação de automações com Shell Script, coleta de métricas e alertas proativos via Telegram.</li>
+          <li>Monitoramento de aplicações e servidores com Elastic Stack (Elastic, Metricbeat e Filebeat).</li>
+          <li>Responsável pela Autoridade Certificadora interna (CA), emissão e renovação de certificados corporativos.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Thyssenkrupp Metalúrgica Santa Luzia - Santa Luzia/MG</h3>
+        <p class="meta">Coordenador de TI | 2002 - 2015</p>
+        <ul>
+          <li>Gestão da área de TI da planta, liderando infraestrutura, redes, segurança, serviços e equipe técnica.</li>
+          <li>Administração de Windows Server: DHCP, DNS, WINS, políticas e Exchange.</li>
+          <li>Implantação de soluções corporativas: Exchange, VMware, WSUS e Symantec SEP.</li>
+          <li>Modernização do Data Center, com upgrades de LAN, storage, firewall, core switch e redes MPLS.</li>
+          <li>Condução de projetos de virtualização, continuidade, padronização e alta disponibilidade.</li>
+          <li>Implantação de processos ITIL, melhoria do Service Desk e gestão de incidentes.</li>
+          <li>Gestão de contratos, fornecedores e orçamento de TI.</li>
+        </ul>
+      </div>
+    </section>
 
-<div class="card">
-<b>Automação de Health Check</b><br>
-Scripts para monitoramento de plataformas com alertas via Telegram.
-</div>
+    <section class="card" id="habilidades">
+      <h2>Competências Técnicas</h2>
+      <div class="chips">
+        <span>IAM e Gestão de Acesso</span>
+        <span>SSO, SAML, OAuth e OIDC</span>
+        <span>Access Manager (OpenText) e eDirectory</span>
+        <span>Segurança de Identidade e Certificados Digitais</span>
+        <span>Apigee (GCP) e Integração de APIs</span>
+        <span>Arquitetura Cloud (AWS e Google Cloud)</span>
+        <span>Middleware: JBoss, Apache e Tomcat</span>
+        <span>Troubleshooting Avançado em Ambientes Críticos</span>
+        <span>Observabilidade com Elastic Stack</span>
+        <span>Automação com Shell Script e Python</span>
+        <span>ITIL, Governança e Operação</span>
+      </div>
+    </section>
 
-<div class="card">
-<b>Infraestrutura GCP</b><br>
-Implementação de Load Balancer, CDN e arquitetura escalável.
-</div>
+    <section class="card" id="soft-skills">
+      <h2>Competências Comportamentais</h2>
+      <div class="chips">
+        <span>Liderança Técnica</span>
+        <span>Resolução de Problemas Complexos</span>
+        <span>Tomada de Decisão Rápida</span>
+        <span>Organização</span>
+        <span>Trabalho em Equipe</span>
+        <span>Comunicação Clara</span>
+      </div>
+    </section>
 
-<div class="card">
-<b>Identity & Access</b><br>
-Implementação de SAML, OAuth e plataformas de autenticação.
-</div>
+    <section class="card" id="resultados">
+      <h2>Resultados</h2>
+      <ul>
+        <li>Redução de custos em mais de 50% com a implementação de GCP nos portais da Oi.</li>
+        <li>Melhoria da disponibilidade dos portais com uso de CDN global.</li>
+        <li>Implantação e sustentação do NaM (NetIQ Access Manager/OpenText IAM), garantindo autenticação corporativa segura e operação estável das aplicações da Oi em ambiente crítico.</li>
+      </ul>
+    </section>
 
-<h2>Tecnologias</h2>
+    <section class="card" id="contato">
+      <h2>Contato</h2>
+      <ul>
+        <li>Email: <a href="mailto:leonardoeaaraujo@gmail.com">leonardoeaaraujo@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/leonardo-ara%C3%BAjo-ab3205a7" target="_blank" rel="noreferrer">linkedin.com/in/leonardo-araujo-ab3205a7</a></li>
+        <li>WhatsApp: <a href="https://wa.me/5531985471820" target="_blank" rel="noreferrer">+55 31 98547-1820</a></li>
+      </ul>
+    </section>
+  </main>
 
-<p>
-Linux • Google Cloud • Apache • JBoss • Elastic Stack •
-Shell Script • Python • Redes
-</p>
+  <footer class="container footer">
+    <p>© <span id="year"></span> Leonardo Araujo</p>
+  </footer>
 
-<h2>Contato</h2>
-
-<p>
-Email: seuemail@email.com<br>
-LinkedIn: linkedin.com/in/seuusuario
-</p>
-
-</section>
-
-<footer>
-© 2026 Leonardo Araujo
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
